@@ -1,0 +1,154 @@
+body, html {
+    height: 100%;
+}
+
+.one, .two, .three, .four , .five{
+    height: 100%;
+    width: 100%;
+}
+
+
+.two {
+    background-image: url("../img/s2_achtergrond.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.three {
+    background-color: #76afca;
+    overflow: hidden;
+}
+
+.four {
+    background-color: orange;
+    background-image: url("../img/s4_achtergrond.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.five{
+    background-color: #a1bd66;
+    overflow: hidden;
+}
+
+.footer{
+    background-color: #a1bd66;
+    width: 100%;
+    height: 25px;
+    bottom: 0px;
+    margin: 2px;
+    padding: 2px;
+}
+
+.fblikes{
+    float: right;
+    right: 10px;
+    margin-right: 20vh;
+    background-color: #a1bd66;
+}
+
+.backgroundImage {
+    position: fixed;
+    z-index: -100;
+}
+
+.s1_pointer {
+    padding-top: 90vh;
+    display: block;
+    margin: auto;
+}
+
+.pointer_container {
+    width: 100%;
+}
+
+.s2bal{
+    margin-top: 70vh;
+    margin-right: -20%;
+}
+
+.s2mannetje{
+    float: left;
+    margin-left: -60%;
+    padding-top: 30vh;
+    width:45%;
+}
+
+.s2text{
+    float: right;
+    margin-right: -40%;
+    padding-top: 5vh;
+    width: 49%;
+    height: 286px;
+}
+
+.s4bal{
+
+    margin-top: 60vh;
+    margin-left: -10%;
+}
+
+.s4mannetje{
+    left: 50vh;
+    margin-left: -20%;
+    padding-top: 5vh;
+}
+
+.s4text{
+    margin-top: 5vh;
+    float: right;
+    margin-bottom: 5vh;
+    margin-right: -40%;
+}
+
+.S3text {
+    float: right;
+    margin-right: -40%;
+    padding-top: 25vh;
+}
+
+.S3vrienden {
+    margin-left: -30%;
+    padding-top: 10vh;
+}
+.S5_left{
+    float: left;
+    width:40%;
+}
+.S5_hand{
+    height: 55vh;
+    display: block;
+    margin:auto;
+    margin-top: -40vh;
+    z-index: -50;
+}
+.S5_varken{
+    height: 45vh;
+    width: 40vw;
+    margin-top: 40vh;
+    margin-left: -50vw;
+}
+.S5_right{
+    float: right;
+    width:54%;
+    margin-top: 10vh;
+    height: 50vh;
+    margin-bottom: 40vh;
+    margin-right: -30vw;
+}
+.S5_heading{
+    float: left;
+    width: 100%;
+}
+.S5_text{
+    float: left;
+    width: 90%;
+    margin-bottom: 5vh;
+}
+.S5_button{
+    width:35%;
+    float: left;
+}
